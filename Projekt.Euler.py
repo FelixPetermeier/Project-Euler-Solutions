@@ -15,9 +15,9 @@ Created on Tue Apr 16 10:18:50 2019
  # 
  #=============================================================================
 
-# Gibt die Anzahl der Zahlen an, welche durch 3 bzw. 5 geteilt werden können.
 ### First Step:
 def numbers():
+    # prints the amount of numbers which can be divided by 3 or 5
     available = list(range(1, 26))
     numbers = 0
     
